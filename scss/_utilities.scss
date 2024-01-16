@@ -1,0 +1,12 @@
+.container {
+    background-color: $light-clr;
+    border: 2px solid $primary-clr;
+    border-radius: $border-raidus;
+    padding: $padding;
+    margin: 0 2em;
+    box-shadow: 10px 10px $primary-clr;
+
+    display: grid;
+    grid-template-columns: repeat(100%, 1);
+    gap: .5em;
+}

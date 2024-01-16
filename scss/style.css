@@ -1,0 +1,131 @@
+.container {
+    background-color: #fff;
+    border: 2px solid #121212;
+    border-radius: 1em;
+    padding: 1.3em;
+    margin: 0 2em;
+    box-shadow: 10px 10px #121212;
+    display: grid;
+    grid-template-columns: repeat(100%, 1);
+    gap: .5em
+}
+
+.btn {
+    width: min-content;
+    background-color: #f4d04e;
+    border-radius: .2em;
+    padding: .1em .475em
+}
+
+body {
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    background-color: #f4d04e;
+    justify-content: center
+}
+
+body,
+.flex-group {
+    display: flex;
+    align-items: center
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0
+}
+
+ul[role=list],
+ol[role=list] {
+    list-style: none
+}
+
+html:focus-within {
+    scroll-behavior: smooth
+}
+
+body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit
+}
+
+@media(prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+        scroll-behavior: auto !important
+    }
+}
+
+picture img {
+    border-radius: .5em
+}
+
+h1 {
+    font-size: 16px
+}
+
+h2 a {
+    font-size: calc(16px + .256em);
+    font-weight: 800;
+    color: #121212;
+    text-decoration: none;
+    transition: .4
+}
+
+h2 a:hover {
+    color: #f4d04e
+}
+
+p {
+    color: gray;
+    line-height: 1.2;
+    max-width: 320px
+}
+
+.flex-group picture img {
+    width: 60%
+}
+
+.flex-group h3 {
+    font-size: .9267em
+}

@@ -1,0 +1,6 @@
+.btn {
+    width: min-content;
+    background-color: $secondary-clr;
+    border-radius: calc($border-raidus - .8em);
+    padding: calc($padding - 1.2em) calc($padding - .825em);
+}
